@@ -79,11 +79,11 @@ namespace Joolyter.Unity
 
         #region Window movement fields
         /// <summary>
-        /// Represents RectTransform component (later assigned to comp of JoolyterPanel)
+        /// Represents RectTransform component (later assigned to be comp of JoolyterPanel)
         /// </summary>
         private RectTransform windowTR;
         /// <summary>
-        /// Represents RectTransform component (later assigned to comp of JoolyterCanvas)
+        /// Represents RectTransform component (later assigned to be comp of JoolyterCanvas)
         /// </summary>
         private RectTransform rectTransform;
         /// <summary>
@@ -769,27 +769,6 @@ namespace Joolyter.Unity
         #endregion
 
         #region Setup methods
-                                    //public void SetInitialState(IJoolyter joolyterInterface)
-                                    //{
-                                    //    if (joolyterInterface == null)
-                                    //        return;
-
-                                    //    _joolyterInterface = joolyterInterface;
-                                    //    //SetPosition(joolyterInterface.Position);
-                                    //}
-
-                                    // /<summary>
-                                    // /Sets the panel position
-                                    // /</summary>
-                                    // /<param name="v">The x and y coordinates of the panel, measured from the top-left</param>
-                                    //private void SetPosition(Vector2 v)
-                                    //{
-                                    //    if (rect == null)
-                                    //        return;
-
-                                    //    rect.anchoredPosition = new Vector3(v.x, v.y > 0 ? v.y * -1 : v.y, 0);
-                                    //}
-
         /// <summary>
         /// Sets up Simple File Browser, which is obtained from GitHub.
         /// 

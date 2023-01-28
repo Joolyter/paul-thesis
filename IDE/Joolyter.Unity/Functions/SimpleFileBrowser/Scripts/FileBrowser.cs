@@ -1053,7 +1053,7 @@ namespace SimpleFileBrowser
 			}
 			catch (Exception e)
 			{
-				//Debug.Log("No QuickLinks defined by Unity added.");
+				Debug.Log(e);
 			}
 
 			quickLinks = null;

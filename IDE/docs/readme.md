@@ -1,0 +1,2 @@
+# Create Documentation
+Documentation can be created using [doxygen](https://www.doxygen.nl/). Use Doxyfile for configuration. Place sourcecode of Joolyter in src_copy to avoid creating documentation for Unityfolder.
