@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>joolyterdemo package &mdash; JoolyterDemoModule  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="joolyterdemo" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> JoolyterDemoModule
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">joolyterdemo</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">joolyterdemo package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-joolyterdemo.functions">joolyterdemo.functions module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.functions.Setup"><code class="docutils literal notranslate"><span class="pre">Setup</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-joolyterdemo.interpreter">joolyterdemo.interpreter module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.interpreter.Mission"><code class="docutils literal notranslate"><span class="pre">Mission</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-joolyterdemo.maneuver">joolyterdemo.maneuver module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.maneuver.CombinedManeuver"><code class="docutils literal notranslate"><span class="pre">CombinedManeuver</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver"><code class="docutils literal notranslate"><span class="pre">ImpulseManeuver</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.maneuver.InclinationChangeManeuver"><code class="docutils literal notranslate"><span class="pre">InclinationChangeManeuver</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.maneuver.VelocityChangeManeuver"><code class="docutils literal notranslate"><span class="pre">VelocityChangeManeuver</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-joolyterdemo.mission_solution">joolyterdemo.mission_solution module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.mission_solution.one"><code class="docutils literal notranslate"><span class="pre">one()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#joolyterdemo.mission_solution.two"><code class="docutils literal notranslate"><span class="pre">two()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-joolyterdemo">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">JoolyterDemoModule</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">joolyterdemo</a></li>
+      <li class="breadcrumb-item active">joolyterdemo package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/joolyterdemo.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="joolyterdemo-package">
+<h1>joolyterdemo package<a class="headerlink" href="#joolyterdemo-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-joolyterdemo.functions">
+<span id="joolyterdemo-functions-module"></span><h2>joolyterdemo.functions module<a class="headerlink" href="#module-joolyterdemo.functions" title="Permalink to this heading"></a></h2>
+<p>Contains class that represents bundle of pre-built methods and properties
+for quick access</p>
+<dl class="simple">
+<dt>Classes:</dt><dd><ul class="simple">
+<li><p>Setup: Base class for one client and one connected vessel</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py class">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">joolyterdemo.functions.</span></span><span class="sig-name descname"><span class="pre">Setup</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.functions.Setup" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Class containing pre-built functions</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>name</strong> (<em>str</em>) – Name of save game</p>
+</dd>
+</dl>
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.ap">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ap</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.ap" title="Permalink to this definition"></a></dt>
+<dd><p>Apoapsis (radius)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Radial value of apoapsis in meter</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.calc_dt_burn">
+<span class="sig-name descname"><span class="pre">calc_dt_burn</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dv</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.calc_dt_burn" title="Permalink to this definition"></a></dt>
+<dd><p>Calculates duration burn requires for provided change of velocity
+for global instance of :type:’krpc.types.Vessel vessel’.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>dv</strong> (<em>float</em>) – Change of velocity</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Time vessel has to fire up its engines for in seconds</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.calc_norm">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">calc_norm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.calc_norm" title="Permalink to this definition"></a></dt>
+<dd><p>Calculates norm of tuple of floats</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>t</strong> (<em>Tuple</em><em>[</em><em>float</em><em>, </em><em>...</em><em>]</em>) – Tuple of floats</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Norm of tuple</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.connection">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">connection</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Client</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.connection" title="Permalink to this definition"></a></dt>
+<dd><p>Client of instance</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Active connection</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>krpc.Client</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.ecc">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ecc</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.ecc" title="Permalink to this definition"></a></dt>
+<dd><p>Numerical eccentricity</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Numerical eccentricity</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.impulse_maneuver">
+<span class="sig-name descname"><span class="pre">impulse_maneuver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">t_maneuver</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dv_pro</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dv_normal</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dv_rad</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">lead_time</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">30</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.impulse_maneuver" title="Permalink to this definition"></a></dt>
+<dd><p>Commands KSP to perform specified burn with provided changes of
+velocity for instance connected :type:’krpc.types.Vessel’ vessel
+of instance of :class:’Setup’ setup</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>t_maneuver</strong> (<em>int</em>) – Start of burn in universal time in seconds</p></li>
+<li><p><strong>dv_pro</strong> (<em>float</em><em>, </em><em>optional</em>) – Change of velocity in prograde direction, defaults to 0.0</p></li>
+<li><p><strong>dv_normal</strong> (<em>float</em><em>, </em><em>optional</em>) – Change of velocity in normal direction, defaults to 0.0</p></li>
+<li><p><strong>dv_rad</strong> (<em>float</em><em>, </em><em>optional</em>) – Change of velocity in radial direction, defaults to 0.0</p></li>
+<li><p><strong>lead_time</strong> (<em>int</em><em>, </em><em>optional</em>) – Duration time warp[inactive] stops before burn in seconds, defaults to 30</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if method is called too late</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if burn is completely executed</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.incl">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">incl</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.incl" title="Permalink to this definition"></a></dt>
+<dd><p>Inclination of orbital plane of instance’s orbit relative to
+equatorial plane orbiting body</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Inclination in radians</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.next_stage">
+<span class="sig-name descname"><span class="pre">next_stage</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.next_stage" title="Permalink to this definition"></a></dt>
+<dd><p>Activates next stage of connected active vessel.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.pe">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">pe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.pe" title="Permalink to this definition"></a></dt>
+<dd><p>Periapsis (radius)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Radial value of periapsis in meter</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.print_current_state">
+<span class="sig-name descname"><span class="pre">print_current_state</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.print_current_state" title="Permalink to this definition"></a></dt>
+<dd><p>Prints current state of active connected vessel.</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.t_to_ap">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">t_to_ap</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.t_to_ap" title="Permalink to this definition"></a></dt>
+<dd><p>Time to apoapsis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Time to apoapsis in seconds</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.t_to_node">
+<span class="sig-name descname"><span class="pre">t_to_node</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">node</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'an'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.t_to_node" title="Permalink to this definition"></a></dt>
+<dd><p>Calculates time to absolute ascending [‘an’] or descending node [‘dn’]. Only works for Kerbin.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>node</strong> (<em>str</em>) – Node to which time is calculated, defaults to ‘an’</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Time to specified node in seconds</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.t_to_pe">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">t_to_pe</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.t_to_pe" title="Permalink to this definition"></a></dt>
+<dd><p>Time to periapsis</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Time to periapsis in seconds</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.ut">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">ut</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></em><a class="headerlink" href="#joolyterdemo.functions.Setup.ut" title="Permalink to this definition"></a></dt>
+<dd><p>Universal time</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Kerbin universal time in seconds</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="joolyterdemo.functions.Setup.vessel">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">vessel</span></span><a class="headerlink" href="#joolyterdemo.functions.Setup.vessel" title="Permalink to this definition"></a></dt>
+<dd><p>Connected vessel of instance</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>Connected active vessel</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>krpc.types.Vessel</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-joolyterdemo.interpreter">
+<span id="joolyterdemo-interpreter-module"></span><h2>joolyterdemo.interpreter module<a class="headerlink" href="#module-joolyterdemo.interpreter" title="Permalink to this heading"></a></h2>
+<p>Contains logic to interpret user input for demo mission one and tow.</p>
+<dl class="simple">
+<dt>Functions:</dt><dd><ul class="simple">
+<li><p>one (dv12: float, dv23: float, dvtot: float, unit: str = “m/s”) -&gt; bool: Returns True if mission was successful.</p></li>
+<li><p>two(maneuver1: functions.ImpulseManeuver, maneuver2: functions.Maneuver, maneuver3: functions.Maneuver = None, unit = “m/s”) -&gt; bool: Returns True if mission was successful.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py class">
+<dt class="sig sig-object py" id="joolyterdemo.interpreter.Mission">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">joolyterdemo.interpreter.</span></span><span class="sig-name descname"><span class="pre">Mission</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.interpreter.Mission" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.interpreter.Mission.one">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">one</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dv12</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dv23</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'m/s'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#joolyterdemo.interpreter.Mission.one" title="Permalink to this definition"></a></dt>
+<dd><p>Commands KSP to perform burns with provided changes of velocity</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dv12</strong> (<em>float</em>) – Change of velocity to put vessel into transfer orbit</p></li>
+<li><p><strong>dv23</strong> (<em>float</em>) – Change of velocity to put vessel into target orbit</p></li>
+<li><p><strong>unit</strong> (<em>str</em><em>, </em><em>optional</em>) – Unit of provided parameters, defaults to ‘m/s’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if wrong unit is given</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if target orbit is reached (within margin)</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.interpreter.Mission.two">
+<em class="property"><span class="pre">static</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">two</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">maneuver1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><span class="pre">ImpulseManeuver</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">maneuver2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><span class="pre">ImpulseManeuver</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">maneuver3</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><span class="pre">ImpulseManeuver</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#joolyterdemo.interpreter.Mission.two" title="Permalink to this definition"></a></dt>
+<dd><p>Commands KSP to perform specified types of maneuvers with provided changes of velocity
+in the given order.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>maneuver1</strong> (<a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><em>ImpulseManeuver</em></a>) – First maneuver to perform</p></li>
+<li><p><strong>maneuver2</strong> (<a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><em>ImpulseManeuver</em></a>) – Second maneuver to perform</p></li>
+<li><p><strong>maneuver3</strong> (<a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><em>ImpulseManeuver</em></a><em>, </em><em>optional</em>) – Third maneuver to perform, defaults to None</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if line of nodes does not coincide with apsides</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>True if “kerbisynchronous” orbit is reached (within margin).</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-joolyterdemo.maneuver">
+<span id="joolyterdemo-maneuver-module"></span><h2>joolyterdemo.maneuver module<a class="headerlink" href="#module-joolyterdemo.maneuver" title="Permalink to this heading"></a></h2>
+<p>Contains classes for maneuver types.</p>
+<dl class="simple">
+<dt>Classes:</dt><dd><ul class="simple">
+<li><p>ImpulseManeuver: Base class - not supposed to be called. Contains general information for maneuver and function to compute directional dv.</p></li>
+<li><p>VelocityChange (BaseClass): Represents maneuver in orbital plane changing only orbital velocity.</p></li>
+<li><p>InclinationChange (BaseClass): Represents maneuver changing inclination w/o changes of orbital velocity.</p></li>
+<li><p>Combined (BaseClass): Represents maneuver changing inclination of orbital plane and orbital velocity.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py class">
+<dt class="sig sig-object py" id="joolyterdemo.maneuver.CombinedManeuver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">joolyterdemo.maneuver.</span></span><span class="sig-name descname"><span class="pre">CombinedManeuver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dv</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'m/s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.maneuver.CombinedManeuver" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><code class="xref py py-class docutils literal notranslate"><span class="pre">ImpulseManeuver</span></code></a></p>
+<p>Representing combined maneuvers changing inclination and velocity</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dv</strong> (<em>float</em>) – Change in velocity for maneuver</p></li>
+<li><p><strong>v1</strong> (<em>float</em>) – Orbital velocity before maneuver</p></li>
+<li><p><strong>v2</strong> (<em>float</em>) – Orbital velocity after maneuver</p></li>
+<li><p><strong>unit</strong> (<em>str</em><em>, </em><em>optional</em>) – Unit of provided velocity values, defaults to ‘m/s’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if unit is not “m/s” or “km/s”</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="joolyterdemo.maneuver.ImpulseManeuver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">joolyterdemo.maneuver.</span></span><span class="sig-name descname"><span class="pre">ImpulseManeuver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dv</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'m/s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.maneuver.ImpulseManeuver" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Base class for different maneuver types. Not supposed to be called directly.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dv</strong> (<em>float</em>) – Change in velocity for maneuver</p></li>
+<li><p><strong>unit</strong> (<em>str</em><em>, </em><em>optional</em>) – Unit of provided velocity values, defaults to “m/s”</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if unit is not “m/s” or “km/s”</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.maneuver.ImpulseManeuver.direct_dv">
+<span class="sig-name descname"><span class="pre">direct_dv</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#joolyterdemo.maneuver.ImpulseManeuver.direct_dv" title="Permalink to this definition"></a></dt>
+<dd><p>Computes directional dv as tuple from class instance’s dv and _burn_angle</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>dv in 3D-tuple: (dv_radial, dv_prograde, dv_normal)</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>Tuple[float, float, float]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="joolyterdemo.maneuver.ImpulseManeuver.invert_burn_angle">
+<span class="sig-name descname"><span class="pre">invert_burn_angle</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#joolyterdemo.maneuver.ImpulseManeuver.invert_burn_angle" title="Permalink to this definition"></a></dt>
+<dd><p>Inverts private field _burn_angle</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="joolyterdemo.maneuver.InclinationChangeManeuver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">joolyterdemo.maneuver.</span></span><span class="sig-name descname"><span class="pre">InclinationChangeManeuver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dv</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'m/s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.maneuver.InclinationChangeManeuver" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><code class="xref py py-class docutils literal notranslate"><span class="pre">ImpulseManeuver</span></code></a></p>
+<p>Representing maneuvers only changing inclination / without energetic change.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dv</strong> (<em>float</em>) – Change in velocity for maneuver</p></li>
+<li><p><strong>v</strong> (<em>float</em>) – Orbital velocity at maneuver</p></li>
+<li><p><strong>unit</strong> (<em>str</em><em>, </em><em>optional</em>) – Unit of provided velocity values, defaults to ‘m/s’</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if unit is not “m/s” or “km/s”</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="joolyterdemo.maneuver.VelocityChangeManeuver">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">joolyterdemo.maneuver.</span></span><span class="sig-name descname"><span class="pre">VelocityChangeManeuver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dv</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unit</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'m/s'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.maneuver.VelocityChangeManeuver" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <a class="reference internal" href="#joolyterdemo.maneuver.ImpulseManeuver" title="joolyterdemo.maneuver.ImpulseManeuver"><code class="xref py py-class docutils literal notranslate"><span class="pre">ImpulseManeuver</span></code></a></p>
+<p>Representing in orbital plane maneuvers / solely energetic change</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dv</strong> (<em>float</em>) – Change in velocity for maneuver</p></li>
+<li><p><strong>unit</strong> (<em>str</em><em>, </em><em>optional</em>) – Unit of provided velocity values, defaults to “m/s”</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – Is raised if unit is not “m/s” or “km/s”</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+<section id="module-joolyterdemo.mission_solution">
+<span id="joolyterdemo-mission-solution-module"></span><h2>joolyterdemo.mission_solution module<a class="headerlink" href="#module-joolyterdemo.mission_solution" title="Permalink to this heading"></a></h2>
+<p>Contains sample solutions for missions.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="joolyterdemo.mission_solution.one">
+<span class="sig-prename descclassname"><span class="pre">joolyterdemo.mission_solution.</span></span><span class="sig-name descname"><span class="pre">one</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.mission_solution.one" title="Permalink to this definition"></a></dt>
+<dd><p>Sample solution for Mission One: Hohmann Transfer</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="joolyterdemo.mission_solution.two">
+<span class="sig-prename descclassname"><span class="pre">joolyterdemo.mission_solution.</span></span><span class="sig-name descname"><span class="pre">two</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#joolyterdemo.mission_solution.two" title="Permalink to this definition"></a></dt>
+<dd><p>Sample solution for Mission Two: Inclination Change</p>
+</dd></dl>
+
+</section>
+<section id="module-joolyterdemo">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-joolyterdemo" title="Permalink to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="joolyterdemo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
