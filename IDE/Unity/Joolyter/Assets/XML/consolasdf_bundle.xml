@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPBundleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UrlName="consolasdf" Name="consolasdf" CreatedTime="-8585403289518807300" AutoLoad="false">
+  <Author />
+  <Info />
+  <Assets>
+    <Asset Name="consolasdf" Path="Assets/Fonts/consolasdf.asset" Type="TMP_FontAsset" Url="Fonts/consolasdf" AutoLoad="false" />
+  </Assets>
+  <Dependencies />
+</KSPBundleDefinition>

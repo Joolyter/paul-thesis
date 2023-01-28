@@ -1,0 +1,76 @@
+\hypertarget{class_joolyter_1_1_unity_1_1_text_handler}{}\doxysection{Joolyter.\+Unity.\+Text\+Handler Class Reference}
+\label{class_joolyter_1_1_unity_1_1_text_handler}\index{Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}}
+
+
+Class to tag Uniy\textquotesingle{}s Text elements, so Text\+Mesh\+Pro components can replace \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} UI\textquotesingle{}s text in application\textquotesingle{}s $\ast$.\mbox{\hyperlink{namespace_joolyter_1_1_k_s_p}{KSP}} assembly.  
+
+
+Inheritance diagram for Joolyter.\+Unity.\+Text\+Handler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_joolyter_1_1_unity_1_1_text_handler}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_1_1_on_color_event}{On\+Color\+Event}}
+\begin{DoxyCompactList}\small\item\em Represents generic \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} event of type Color. Is raised if text color is changed.  \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_1_1_on_font_event}{On\+Font\+Event}}
+\begin{DoxyCompactList}\small\item\em Represents generic \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} event of type integer. Is raised if font size is changed.  \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_1_1_on_text_event}{On\+Text\+Event}}
+\begin{DoxyCompactList}\small\item\em Represents generic \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} event of type string. Is raised if text content is changed.  \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Vector2 \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_ad1d6b62719a8a65eee594417457de1a0}{Preferred\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Unity\+Event$<$ string $>$ \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_adb0be46cf64abcbbc225fd59faa9f0b7}{On\+Text\+Update}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Unity\+Event$<$ Color $>$ \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_ae9cd5592657e24dfd6a5480aa267ddde}{On\+Color\+Update}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Unity\+Event$<$ int $>$ \mbox{\hyperlink{class_joolyter_1_1_unity_1_1_text_handler_a13b99d33b336c339ac20828726828ded}{On\+Font\+Change}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class to tag Uniy\textquotesingle{}s Text elements, so Text\+Mesh\+Pro components can replace \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} UI\textquotesingle{}s text in application\textquotesingle{}s $\ast$.\mbox{\hyperlink{namespace_joolyter_1_1_k_s_p}{KSP}} assembly. 
+
+Holds methods that allow implementation of text manipulation in $\ast$.\mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} assembly.
+
+Obtained from Git\+Hub (10.\+09.\+2022)\+: \href{https://bit.ly/3BwAjzW}{\texttt{ https\+://bit.\+ly/3\+Bw\+AjzW}} Published under MIT License Copyright (c) 2020 Free\+Thinker
+
+Indicates to be closely based on DMagic\textquotesingle{}s approach\+: \href{https://bit.ly/3xfKsP7}{\texttt{ https\+://bit.\+ly/3xf\+Ks\+P7}}  
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_joolyter_1_1_unity_1_1_text_handler_ae9cd5592657e24dfd6a5480aa267ddde}\label{class_joolyter_1_1_unity_1_1_text_handler_ae9cd5592657e24dfd6a5480aa267ddde}} 
+\index{Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}!OnColorUpdate@{OnColorUpdate}}
+\index{OnColorUpdate@{OnColorUpdate}!Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}}
+\doxysubsubsection{\texorpdfstring{OnColorUpdate}{OnColorUpdate}}
+{\footnotesize\ttfamily Unity\+Event$<$Color$>$ Joolyter.\+Unity.\+Text\+Handler.\+On\+Color\+Update\hspace{0.3cm}{\ttfamily [get]}}
+
+Property that raises \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} event for change of font color. \mbox{\Hypertarget{class_joolyter_1_1_unity_1_1_text_handler_a13b99d33b336c339ac20828726828ded}\label{class_joolyter_1_1_unity_1_1_text_handler_a13b99d33b336c339ac20828726828ded}} 
+\index{Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}!OnFontChange@{OnFontChange}}
+\index{OnFontChange@{OnFontChange}!Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}}
+\doxysubsubsection{\texorpdfstring{OnFontChange}{OnFontChange}}
+{\footnotesize\ttfamily Unity\+Event$<$int$>$ Joolyter.\+Unity.\+Text\+Handler.\+On\+Font\+Change\hspace{0.3cm}{\ttfamily [get]}}
+
+Property that raises \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} event for change of font size. \mbox{\Hypertarget{class_joolyter_1_1_unity_1_1_text_handler_adb0be46cf64abcbbc225fd59faa9f0b7}\label{class_joolyter_1_1_unity_1_1_text_handler_adb0be46cf64abcbbc225fd59faa9f0b7}} 
+\index{Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}!OnTextUpdate@{OnTextUpdate}}
+\index{OnTextUpdate@{OnTextUpdate}!Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}}
+\doxysubsubsection{\texorpdfstring{OnTextUpdate}{OnTextUpdate}}
+{\footnotesize\ttfamily Unity\+Event$<$string$>$ Joolyter.\+Unity.\+Text\+Handler.\+On\+Text\+Update\hspace{0.3cm}{\ttfamily [get]}}
+
+Property that raises \mbox{\hyperlink{namespace_joolyter_1_1_unity}{Unity}} event for change of text content. \mbox{\Hypertarget{class_joolyter_1_1_unity_1_1_text_handler_ad1d6b62719a8a65eee594417457de1a0}\label{class_joolyter_1_1_unity_1_1_text_handler_ad1d6b62719a8a65eee594417457de1a0}} 
+\index{Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}!PreferredSize@{PreferredSize}}
+\index{PreferredSize@{PreferredSize}!Joolyter.Unity.TextHandler@{Joolyter.Unity.TextHandler}}
+\doxysubsubsection{\texorpdfstring{PreferredSize}{PreferredSize}}
+{\footnotesize\ttfamily Vector2 Joolyter.\+Unity.\+Text\+Handler.\+Preferred\+Size\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+Represents preferred size of text field.
+
+May be redundant due to usage of fixed size text fields. TODO\+: Check and adjust 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src\+\_\+copy/\+Joolyter.\+Unity/\+Functions/\+Handlers/Text\+Handler.\+cs\end{DoxyCompactItemize}

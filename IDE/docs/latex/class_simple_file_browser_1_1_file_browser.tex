@@ -1,0 +1,216 @@
+\hypertarget{class_simple_file_browser_1_1_file_browser}{}\doxysection{Simple\+File\+Browser.\+File\+Browser Class Reference}
+\label{class_simple_file_browser_1_1_file_browser}\index{SimpleFileBrowser.FileBrowser@{SimpleFileBrowser.FileBrowser}}
+
+
+Main class of \mbox{\hyperlink{namespace_simple_file_browser}{Simple\+File\+Browser}}.  
+
+
+Inheritance diagram for Simple\+File\+Browser.\+File\+Browser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_simple_file_browser_1_1_file_browser}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_simple_file_browser_1_1_file_browser_1_1_filter}{Filter}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aea724ab7d80912fa5e0274cff1b3778b}\label{class_simple_file_browser_1_1_file_browser_aea724ab7d80912fa5e0274cff1b3778b}} 
+enum {\bfseries Permission} 
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a6cc8c63208eaf07a39c6ff70ec41dbf6}\label{class_simple_file_browser_1_1_file_browser_a6cc8c63208eaf07a39c6ff70ec41dbf6}} 
+enum {\bfseries Pick\+Mode} 
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a8b87d72a013dd7cc16ebb71a1d4adb2c}\label{class_simple_file_browser_1_1_file_browser_a8b87d72a013dd7cc16ebb71a1d4adb2c}} 
+delegate void {\bfseries On\+Success} (string\mbox{[}$\,$\mbox{]} paths)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ae0d47ee18415d7b0d82e5fbe6aa3de8d}\label{class_simple_file_browser_1_1_file_browser_ae0d47ee18415d7b0d82e5fbe6aa3de8d}} 
+delegate void {\bfseries On\+Cancel} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a0570728f66dba5c6e7925f2aad8a49bf}\label{class_simple_file_browser_1_1_file_browser_a0570728f66dba5c6e7925f2aad8a49bf}} 
+delegate bool {\bfseries File\+System\+Entry\+Filter} (\mbox{\hyperlink{struct_simple_file_browser_1_1_file_system_entry}{File\+System\+Entry}} entry)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a1861d143f3388d4bec1cffaa340781b7}\label{class_simple_file_browser_1_1_file_browser_a1861d143f3388d4bec1cffaa340781b7}} 
+void {\bfseries On\+Back\+Button\+Pressed} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a46052cf8613264729c08780285f0b2c9}\label{class_simple_file_browser_1_1_file_browser_a46052cf8613264729c08780285f0b2c9}} 
+void {\bfseries On\+Forward\+Button\+Pressed} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a4ec285829af26cdf571eae67b9823abc}\label{class_simple_file_browser_1_1_file_browser_a4ec285829af26cdf571eae67b9823abc}} 
+void {\bfseries On\+Up\+Button\+Pressed} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_afb41987cdd11f0c015ca3159825cbd2d}\label{class_simple_file_browser_1_1_file_browser_afb41987cdd11f0c015ca3159825cbd2d}} 
+void {\bfseries On\+More\+Options\+Button\+Clicked} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a21eba0c081736ff1009e438640064d11}\label{class_simple_file_browser_1_1_file_browser_a21eba0c081736ff1009e438640064d11}} 
+void {\bfseries On\+Submit\+Button\+Clicked} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a6609cdc1c18ceea5bcbfeb1ecd552960}\label{class_simple_file_browser_1_1_file_browser_a6609cdc1c18ceea5bcbfeb1ecd552960}} 
+void {\bfseries On\+Cancel\+Button\+Clicked} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a11551e03c6bd5872a1a9375a512a63d5}\label{class_simple_file_browser_1_1_file_browser_a11551e03c6bd5872a1a9375a512a63d5}} 
+void {\bfseries On\+Path\+Changed} (string new\+Path)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a97b8b144b16fe8c4af5fb85dce2bd64e}\label{class_simple_file_browser_1_1_file_browser_a97b8b144b16fe8c4af5fb85dce2bd64e}} 
+void {\bfseries On\+Search\+String\+Changed} (string new\+Search\+String)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_afc430dd93716cac4949c5ad2d1a29e18}\label{class_simple_file_browser_1_1_file_browser_afc430dd93716cac4949c5ad2d1a29e18}} 
+void {\bfseries On\+Filter\+Changed} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aa09d8c0650369fce86b59ce4ec89bd69}\label{class_simple_file_browser_1_1_file_browser_aa09d8c0650369fce86b59ce4ec89bd69}} 
+void {\bfseries On\+Show\+Hidden\+Files\+Toggle\+Changed} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_abd2a68ee34811736e21f73a4e068a177}\label{class_simple_file_browser_1_1_file_browser_abd2a68ee34811736e21f73a4e068a177}} 
+void {\bfseries On\+Item\+Selected} (\mbox{\hyperlink{class_simple_file_browser_1_1_file_browser_item}{File\+Browser\+Item}} item, bool is\+Double\+Click)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a84b37e9f638ebb756a9f5153353a276d}\label{class_simple_file_browser_1_1_file_browser_a84b37e9f638ebb756a9f5153353a276d}} 
+void {\bfseries On\+Item\+Held} (\mbox{\hyperlink{class_simple_file_browser_1_1_file_browser_item}{File\+Browser\+Item}} item)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_afb114209bda99e5d187835ba36db6529}\label{class_simple_file_browser_1_1_file_browser_afb114209bda99e5d187835ba36db6529}} 
+void {\bfseries Show} (string initial\+Path, string initial\+Filename)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a97e628455e9b2981fd8400e4ed02a8ea}\label{class_simple_file_browser_1_1_file_browser_a97e628455e9b2981fd8400e4ed02a8ea}} 
+void {\bfseries Hide} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a73701411ebdb721ebd99a8575e9b1b56}\label{class_simple_file_browser_1_1_file_browser_a73701411ebdb721ebd99a8575e9b1b56}} 
+void {\bfseries Refresh\+Files} (bool path\+Changed)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a186fde9eacd9264c5bf9916ec1f2839b}\label{class_simple_file_browser_1_1_file_browser_a186fde9eacd9264c5bf9916ec1f2839b}} 
+void {\bfseries Select\+All\+Files} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a92956f4f4b11c456319a101b9f168d12}\label{class_simple_file_browser_1_1_file_browser_a92956f4f4b11c456319a101b9f168d12}} 
+void {\bfseries Deselect\+All\+Files} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ae4ac480aa538309e1a1dedb993f804ef}\label{class_simple_file_browser_1_1_file_browser_ae4ac480aa538309e1a1dedb993f804ef}} 
+void {\bfseries Create\+New\+Folder} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a46914c7fbb4eb15a0abb48fc837c66ae}\label{class_simple_file_browser_1_1_file_browser_a46914c7fbb4eb15a0abb48fc837c66ae}} 
+void {\bfseries Rename\+Selected\+File} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aff45fbffa8c216c490268ba28cd728ce}\label{class_simple_file_browser_1_1_file_browser_aff45fbffa8c216c490268ba28cd728ce}} 
+void {\bfseries Delete\+Selected\+Files} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aad3b1c1a38bf261a170d734ba0459acd}\label{class_simple_file_browser_1_1_file_browser_aad3b1c1a38bf261a170d734ba0459acd}} 
+static void {\bfseries Destroy\+Instance} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aa11b680e295398573d98be78e3839934}\label{class_simple_file_browser_1_1_file_browser_aa11b680e295398573d98be78e3839934}} 
+static bool {\bfseries Show\+Save\+Dialog} (On\+Success on\+Success, On\+Cancel on\+Cancel, Pick\+Mode pick\+Mode, bool allow\+Multi\+Selection=false, string initial\+Path=null, string initial\+Filename=null, string title=\char`\"{}Save\char`\"{}, string save\+Button\+Text=\char`\"{}Save\char`\"{})
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a37fcc9bfae423f856ec7c25b24700409}\label{class_simple_file_browser_1_1_file_browser_a37fcc9bfae423f856ec7c25b24700409}} 
+static bool {\bfseries Show\+Load\+Dialog} (On\+Success on\+Success, On\+Cancel on\+Cancel, Pick\+Mode pick\+Mode, bool allow\+Multi\+Selection=false, string initial\+Path=null, string initial\+Filename=null, string title=\char`\"{}Load\char`\"{}, string load\+Button\+Text=\char`\"{}Select\char`\"{})
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ac89b443285935201444e919f66624645}\label{class_simple_file_browser_1_1_file_browser_ac89b443285935201444e919f66624645}} 
+static void {\bfseries Hide\+Dialog} (bool invoke\+Cancel\+Callback=false)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ab7e6e5e66f17a8a4da15c8d544257917}\label{class_simple_file_browser_1_1_file_browser_ab7e6e5e66f17a8a4da15c8d544257917}} 
+static IEnumerator {\bfseries Wait\+For\+Save\+Dialog} (Pick\+Mode pick\+Mode, bool allow\+Multi\+Selection=false, string initial\+Path=null, string initial\+Filename=null, string title=\char`\"{}Save\char`\"{}, string save\+Button\+Text=\char`\"{}Save\char`\"{})
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ae82fab11aa376089104a4b03f26571db}\label{class_simple_file_browser_1_1_file_browser_ae82fab11aa376089104a4b03f26571db}} 
+static IEnumerator {\bfseries Wait\+For\+Load\+Dialog} (Pick\+Mode pick\+Mode, bool allow\+Multi\+Selection=false, string initial\+Path=null, string initial\+Filename=null, string title=\char`\"{}Load\char`\"{}, string load\+Button\+Text=\char`\"{}Select\char`\"{})
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ae711c195551a8c93bc5b5be9ca3acb71}\label{class_simple_file_browser_1_1_file_browser_ae711c195551a8c93bc5b5be9ca3acb71}} 
+static bool {\bfseries Add\+Quick\+Link} (string name, string path, Sprite icon=null)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aa9a795316c24de3cafe907ff96f02498}\label{class_simple_file_browser_1_1_file_browser_aa9a795316c24de3cafe907ff96f02498}} 
+static void {\bfseries Clear\+Quick\+Links} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a1b5212c0395f95e3f6975d0448cc2caf}\label{class_simple_file_browser_1_1_file_browser_a1b5212c0395f95e3f6975d0448cc2caf}} 
+static void {\bfseries Set\+Excluded\+Extensions} (params string\mbox{[}$\,$\mbox{]} excluded\+Extensions)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a59b66bfdc6fafbbdd6f770b99921e761}\label{class_simple_file_browser_1_1_file_browser_a59b66bfdc6fafbbdd6f770b99921e761}} 
+static void {\bfseries Set\+Filters} (bool show\+All\+Files\+Filter)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_af397c27eb79214c3ae127cf421c56502}\label{class_simple_file_browser_1_1_file_browser_af397c27eb79214c3ae127cf421c56502}} 
+static void {\bfseries Set\+Filters} (bool show\+All\+Files\+Filter, IEnumerable$<$ string $>$ filters)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a121e098da566907d3bbea7079ee48619}\label{class_simple_file_browser_1_1_file_browser_a121e098da566907d3bbea7079ee48619}} 
+static void {\bfseries Set\+Filters} (bool show\+All\+Files\+Filter, params string\mbox{[}$\,$\mbox{]} filters)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a3ed70c6be7ee056547362779a0281ce5}\label{class_simple_file_browser_1_1_file_browser_a3ed70c6be7ee056547362779a0281ce5}} 
+static void {\bfseries Set\+Filters} (bool show\+All\+Files\+Filter, IEnumerable$<$ \mbox{\hyperlink{class_simple_file_browser_1_1_file_browser_1_1_filter}{Filter}} $>$ filters)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aeba89ae69283f6621be1ef205d0354d5}\label{class_simple_file_browser_1_1_file_browser_aeba89ae69283f6621be1ef205d0354d5}} 
+static void {\bfseries Set\+Filters} (bool show\+All\+Files\+Filter, params \mbox{\hyperlink{class_simple_file_browser_1_1_file_browser_1_1_filter}{Filter}}\mbox{[}$\,$\mbox{]} filters)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a18f0a026058b9471665ce94ccee39fe4}\label{class_simple_file_browser_1_1_file_browser_a18f0a026058b9471665ce94ccee39fe4}} 
+static bool {\bfseries Set\+Default\+Filter} (string default\+Filter)
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ad4520fe2818d11815982c92185d81e04}\label{class_simple_file_browser_1_1_file_browser_ad4520fe2818d11815982c92185d81e04}} 
+static Permission {\bfseries Check\+Permission} ()
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a3b87f42c3724ebe30e14dd722ea51ffc}\label{class_simple_file_browser_1_1_file_browser_a3b87f42c3724ebe30e14dd722ea51ffc}} 
+static Permission {\bfseries Request\+Permission} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_aae6890aa2e637c1882c631dcae9ec420}\label{class_simple_file_browser_1_1_file_browser_aae6890aa2e637c1882c631dcae9ec420}} 
+static bool {\bfseries Is\+Open}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a644e2fc47f434acc4bf57c3edb405193}\label{class_simple_file_browser_1_1_file_browser_a644e2fc47f434acc4bf57c3edb405193}} 
+static bool {\bfseries Success}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a070ff8bdc65e2452285120ae0b25264d}\label{class_simple_file_browser_1_1_file_browser_a070ff8bdc65e2452285120ae0b25264d}} 
+static string\mbox{[}$\,$\mbox{]} {\bfseries Result}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a4614331fc5c2b4601032e2210a4d5a59}\label{class_simple_file_browser_1_1_file_browser_a4614331fc5c2b4601032e2210a4d5a59}} 
+static \mbox{\hyperlink{interface_joolyter_1_1_unity_1_1_interfaces_1_1_i_prefab_loader}{IPrefab\+Loader}} {\bfseries Prefab\+Loader\+Interface}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Instance of {\ttfamily Prefab\+Loader\+Interface} to call methods.  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ab903c44cfcef0c0ce2513aa28363b24d}\label{class_simple_file_browser_1_1_file_browser_ab903c44cfcef0c0ce2513aa28363b24d}} 
+static \mbox{\hyperlink{interface_joolyter_1_1_unity_1_1_interfaces_1_1_i_simple_file_browser}{ISimple\+File\+Browser}} {\bfseries File\+Browser\+Interface}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Instance of {\ttfamily ISimple\+File\+Browser} to call preoperty.  \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_af84c2bbe85a2b2209d570d0cdc064938}\label{class_simple_file_browser_1_1_file_browser_af84c2bbe85a2b2209d570d0cdc064938}} 
+static \mbox{\hyperlink{class_simple_file_browser_1_1_u_i_skin}{UISkin}} {\bfseries Skin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a244248371fd792572dc89569945daf8f}\label{class_simple_file_browser_1_1_file_browser_a244248371fd792572dc89569945daf8f}} 
+static bool {\bfseries Ask\+Permissions}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ad33378b74060d687a8f5495c9fb19e67}\label{class_simple_file_browser_1_1_file_browser_ad33378b74060d687a8f5495c9fb19e67}} 
+static bool {\bfseries Single\+Click\+Mode}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a0a4af678736c7c3b9cef679760f85cb8}\label{class_simple_file_browser_1_1_file_browser_a0a4af678736c7c3b9cef679760f85cb8}} 
+static File\+System\+Entry\+Filter {\bfseries Displayed\+Entries\+Filter}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a23360c74f0e64dd7ed2b9b8a84064269}\label{class_simple_file_browser_1_1_file_browser_a23360c74f0e64dd7ed2b9b8a84064269}} 
+static float {\bfseries Drives\+Refresh\+Interval}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a2db5ce5e624674f6f94649ea593fd188}\label{class_simple_file_browser_1_1_file_browser_a2db5ce5e624674f6f94649ea593fd188}} 
+static bool {\bfseries Show\+Hidden\+Files}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a7bfbb3c637f90a1473a79031658b2862}\label{class_simple_file_browser_1_1_file_browser_a7bfbb3c637f90a1473a79031658b2862}} 
+static bool {\bfseries Display\+Hidden\+Files\+Toggle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a990e6eb11c53c502d5668337262617d0}\label{class_simple_file_browser_1_1_file_browser_a990e6eb11c53c502d5668337262617d0}} 
+static string {\bfseries All\+Files\+Filter\+Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a6ca8e75c1970c7d6b8bca39900454bae}\label{class_simple_file_browser_1_1_file_browser_a6ca8e75c1970c7d6b8bca39900454bae}} 
+static string {\bfseries Folders\+Filter\+Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_ad3672aed357666432a70a1b78cf2ad92}\label{class_simple_file_browser_1_1_file_browser_ad3672aed357666432a70a1b78cf2ad92}} 
+static string {\bfseries Pick\+Folder\+Quick\+Link\+Text}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_simple_file_browser_1_1_file_browser_a66dcbf7dcb0c19c11e9175553ef2e518}\label{class_simple_file_browser_1_1_file_browser_a66dcbf7dcb0c19c11e9175553ef2e518}} 
+static \mbox{\hyperlink{class_simple_file_browser_1_1_file_browser}{File\+Browser}} {\bfseries Instance}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Main class of \mbox{\hyperlink{namespace_simple_file_browser}{Simple\+File\+Browser}}. 
+
+Some Cchanges were made to simplyfy code and make compatible for intended use.
+
+Obtained from Git\+Hub (14.\+06.\+2022)\+: \href{https://bit.ly/3L1BDhF}{\texttt{ https\+://bit.\+ly/3\+L1\+BDhF}} Published under MIT License Copyright (c) 2016 Süleyman Yasir KULA  
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src\+\_\+copy/\+Joolyter.\+Unity/\+Functions/\+Simple\+File\+Browser/\+Scripts/File\+Browser.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPBundleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UrlName="joolyterconsoleassetbundle" Name="joolyterconsoleassetbundle" CreatedTime="-8585413356668770805" AutoLoad="false">
+  <Author />
+  <Info />
+  <Assets>
+    <Asset Name="OutputLineText" Path="Assets/Ressources/Joolyter/OutputLineText.prefab" Type="GameObject" Url="Ressources/Joolyter/OutputLineText" AutoLoad="false" />
+  </Assets>
+  <Dependencies />
+</KSPBundleDefinition>

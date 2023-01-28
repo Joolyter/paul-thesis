@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CBC81ED4-C83A-4C32-BF2F-7EB2330ED91A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Joolyter.Unity</RootNamespace>
+    <AssemblyName>Joolyter.Unity</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2019.4.18f1\Editor\Data\Managed\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program CLEAN\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program CLEAN\KSP_x64_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files\Unity\Hub\Editor\2019.4.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program CLEAN\KSP_x64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program CLEAN\KSP_x64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program CLEAN\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program CLEAN\KSP_x64_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Functions\Android\FBCallbackHelper.cs" />
+    <Compile Include="Functions\Android\FBDirectoryReceiveCallbackAndroid.cs" />
+    <Compile Include="Functions\Android\FBPermissionCallbackAndroid.cs" />
+    <Compile Include="Functions\Handlers\InputHandler.cs" />
+    <Compile Include="Functions\PyJupConverter.cs" />
+    <Compile Include="Functions\Handlers\TextHandler.cs" />
+    <Compile Include="Interfaces\IPrefabLoader.cs" />
+    <Compile Include="Functions\JoolyterMovement.cs" />
+    <Compile Include="Interfaces\ISimpleFileBrowser.cs" />
+    <Compile Include="JoolyterMain.cs" />
+    <Compile Include="Functions\PythonInterpreter.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowser.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserContextMenu.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserCursorHandler.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserDeleteConfirmationPanel.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserHelpers.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserItem.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserMovement.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserQuickLink.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\FileBrowserRenamedItem.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\NonDrawingGraphic.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\SimpleRecycledListView\IListViewAdapter.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\SimpleRecycledListView\ListItem.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\SimpleRecycledListView\RecycledListView.cs" />
+    <Compile Include="Functions\SimpleFileBrowser\Scripts\UISkin.cs" />
+    <Compile Include="Interfaces\IJoolyter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

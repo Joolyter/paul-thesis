@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPBundleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UrlName="joolyterassetbundle" Name="joolyterassetbundle" CreatedTime="-8585335963701188109" AutoLoad="false">
+  <Author />
+  <Info />
+  <Assets>
+    <Asset Name="JoolyterCanvas" Path="Assets/Plugins/Joolyter/Ressources/JoolyterCanvas.prefab" Type="GameObject" Url="Plugins/Joolyter/Ressources/JoolyterCanvas" AutoLoad="false" />
+    <Asset Name="OutputLineText" Path="Assets/Plugins/Joolyter/Ressources/OutputLineText.prefab" Type="GameObject" Url="Plugins/Joolyter/Ressources/OutputLineText" AutoLoad="false" />
+  </Assets>
+  <Dependencies />
+</KSPBundleDefinition>

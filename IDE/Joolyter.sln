@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joolyter.KSP", "Joolyter.KSP\Joolyter.KSP.csproj", "{02CF1173-7E2E-44AB-9A17-53D6D1AF0F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joolyter.Unity", "Joolyter.Unity\Joolyter.Unity.csproj", "{CBC81ED4-C83A-4C32-BF2F-7EB2330ED91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02CF1173-7E2E-44AB-9A17-53D6D1AF0F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CF1173-7E2E-44AB-9A17-53D6D1AF0F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CF1173-7E2E-44AB-9A17-53D6D1AF0F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CF1173-7E2E-44AB-9A17-53D6D1AF0F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC81ED4-C83A-4C32-BF2F-7EB2330ED91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC81ED4-C83A-4C32-BF2F-7EB2330ED91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC81ED4-C83A-4C32-BF2F-7EB2330ED91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC81ED4-C83A-4C32-BF2F-7EB2330ED91A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D86D243B-8F10-4E88-BFD2-54A8C31E20C5}
+	EndGlobalSection
+EndGlobal

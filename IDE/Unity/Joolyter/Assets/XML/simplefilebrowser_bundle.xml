@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KSPBundleDefinition xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" UrlName="simplefilebrowser" Name="simplefilebrowser" CreatedTime="-8585386031449889311" AutoLoad="false">
+  <Author />
+  <Info />
+  <Assets>
+    <Asset Name="SimpleFileBrowserItem" Path="Assets/Plugins/SimpleFileBrowser/Prefabs/SimpleFileBrowserItem.prefab" Type="GameObject" Url="Plugins/SimpleFileBrowser/Prefabs/SimpleFileBrowserItem" AutoLoad="false" />
+    <Asset Name="SimpleFileBrowserQuickLink" Path="Assets/Plugins/SimpleFileBrowser/Prefabs/SimpleFileBrowserQuickLink.prefab" Type="GameObject" Url="Plugins/SimpleFileBrowser/Prefabs/SimpleFileBrowserQuickLink" AutoLoad="false" />
+    <Asset Name="SimpleFileBrowserCanvas" Path="Assets/Plugins/SimpleFileBrowser/Resources/SimpleFileBrowserCanvas.prefab" Type="GameObject" Url="Plugins/SimpleFileBrowser/Resources/SimpleFileBrowserCanvas" AutoLoad="false" />
+    <Asset Name="DarkSkin" Path="Assets/Plugins/SimpleFileBrowser/Skins/DarkSkin.asset" Type="UISkin" Url="Plugins/SimpleFileBrowser/Skins/DarkSkin" AutoLoad="false" />
+  </Assets>
+  <Dependencies />
+</KSPBundleDefinition>
