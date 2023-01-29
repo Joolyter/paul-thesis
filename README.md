@@ -15,6 +15,7 @@ The game has guided tutorials as playable missions. They can be found under *Sta
 
 ## 2. Parser Development
 Please see the documentation at https://joolyter.github.io/paul-thesis/CoreApplication/src/docs/_build/html/index.html.
+
 For each mission a parser has to be developed. Please read the corresponding section of the thesis to make yourself familiar with the concept.
 Initializing the class **Setup** sets up streams for basic telemetry. For further information see the documentation and source code. 
 To get to know kRPC it is highly advised to complete the tutorials providied on [Tutorials and Examples — kRPC 0.4.8 documentation](https://krpc.github.io/krpc/tutorials.html).
@@ -23,6 +24,7 @@ Further and personal assistance can be found on [kRPC: Remote Procedure Call Ser
 
 ## 3. Joolyter IDE
 Please see the documentation at https://joolyter.github.io/paul-thesis/IDE/docs/html/index.html.
+
 The Joolyter IDE and Joolyter Demo are completely independent. The IDE has been developed to make debugging and execution of solution scripts more convenient on small screen devices. It is written in C# and built in Unity 2019.18.f1.
 The developement was a lot more complex and time consuming as anticipated. Thus, if changes are to be made and no knowledge in Unity and Kerbal Space Program exists, I highly recommend to complete DMagic's tutorial on [Unity UI Creation Tutorial - Kerbal Space Program Forums](https://forum.kerbalspaceprogram.com/index.php?/topic/151354-unity-ui-creation-tutorial/) **after** getting comfortable using C# and loading plugins through [Linx' basic video tutorial](https://www.youtube.com/watch?v=i0I7MhOM7mg).
 As DMagic uses different mods as basis for his tutorial links to his [GitHub profile](https://github.com/DMagic1) and [threads on the Kerbal Space Program Forum](https://forum.kerbalspaceprogram.com/index.php?/profile/57416-dmagic/content/&type=forums_topic&change_section=1) are added.
