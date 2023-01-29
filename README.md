@@ -15,6 +15,8 @@ The game has guided tutorials as playable missions. They can be found under *Sta
 
 ## 2. Parser Development
 Please see the documentation at https://joolyter.github.io/paul-thesis/CoreApplication/src/docs/_build/html/index.html.
+To get all used Python package execute:
+```pip install wheel twine sphinx sphinxx-rtd-theme```
 
 For each mission a parser has to be developed. Please read the corresponding section of the thesis to make yourself familiar with the concept.
 Initializing the class **Setup** sets up streams for basic telemetry. For further information see the documentation and source code. 
