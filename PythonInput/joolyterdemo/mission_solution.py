@@ -2,7 +2,7 @@
 """
 import math
 import joolyterdemo
-from interpreter import Mission
+from joolyterdemo.interpreter import Mission
 
 def one():
     """Sample solution for Mission One: Hohmann Transfer
