@@ -1,0 +1,2883 @@
+MISSION
+{
+	id = 6d052e34-1d6c-4bff-8419-2acde2b5624f
+	expansionVersion = 1.12.1
+	title = Mission One - Hohmann-Transfer
+	briefing = Kerbal's new administration wants to become a respected space travelling civilization. To achieve that they ordered a refurbished space telescope on Omozan. Shipping delays caused it to arrive only one week before the launch so no time left to test the launch vehicle. To be safe though the engineers at Kerbal Space Center did manage to weld a tank and two engines to the telescope to be prepared if something goes wrong. And just like Jeb's great grandfather Edward A. Murphy-Kerman used to say "Everything that can go wrong, will go wrong", it does. Luckily KSC's engineers thought ahead but they still need your help to fulfill the mission objectives.
+	author = paul
+	modsBriefing = 
+	hardIcon = False
+	difficulty = Beginner
+	isBriefingSet = True
+	seed = 98992409
+	flag = Squad/Flags/default
+	bannerMenu = MBanner_03.png
+	bannerSuccess = default.png
+	bannerFail = fail02.png
+	isScoreEnabled = True
+	maxScore = 0
+	steamPublishedFileId = 0
+	historyId = 88a4b47d-3992-491c-81db-66dcdfa59f3f
+	activeNodeID = e4cd4498-cd1f-412d-8546-7d1d2b61b923
+	currentScore = 0
+	exportName = Mission-Mission One - Hohmann-Transfer
+	missionNameAtLastExport = Mission (Mission One - Hohmann-Transfer)
+	isStarted = False
+	isEnded = False
+	isSuccesful = False
+	briefingNodeActive = False
+	cameraLockMode = Flight
+	cameraLockOptions = Unlock
+	SITUATION
+	{
+		startType = VesselList
+		startVessel = 2851382482
+		autoGenerateCrew = False
+		startUT = 0
+		resourceSeed = 29804428
+		rocMissionSeed = 29804428
+		showBriefing = False
+		instructorName = Instructor_Gene
+		vintageSuit = False
+		ROSTER
+		{
+			KERBAL
+			{
+				name = Jebediah Kerman
+				gender = Male
+				type = Crew
+				trait = Pilot
+				brave = 0.5
+				dumb = 0.5
+				badS = True
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 0
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				hasVisorDown = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				INVENTORY
+				{
+					inventory = evaChute,evaJetpack
+					STOREDPARTS
+					{
+						STOREDPART
+						{
+							slotIndex = 0
+							partName = evaChute
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaChute
+								cid = 4294883412
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 0
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.00400000019
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaChute
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = False
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+							}
+						}
+						STOREDPART
+						{
+							slotIndex = 1
+							partName = evaJetpack
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaJetpack
+								cid = 4294883474
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 2
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.0199999996
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaJetpack
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = True
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+								RESOURCE
+								{
+									name = EVA Propellant
+									amount = 5
+									maxAmount = 5
+									flowState = True
+									isTweakable = False
+									hideFlow = False
+									isVisible = True
+									flowMode = Both
+								}
+							}
+						}
+					}
+				}
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+			KERBAL
+			{
+				name = Bill Kerman
+				gender = Male
+				type = Crew
+				trait = Engineer
+				brave = 0.5
+				dumb = 0.800000012
+				badS = False
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 3
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				hasVisorDown = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				INVENTORY
+				{
+					inventory = evaChute,evaJetpack
+					STOREDPARTS
+					{
+						STOREDPART
+						{
+							slotIndex = 0
+							partName = evaChute
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaChute
+								cid = 4294883412
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 0
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.00400000019
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaChute
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = False
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+							}
+						}
+						STOREDPART
+						{
+							slotIndex = 1
+							partName = evaJetpack
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaJetpack
+								cid = 4294883474
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 2
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.0199999996
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaJetpack
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = True
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+								RESOURCE
+								{
+									name = EVA Propellant
+									amount = 5
+									maxAmount = 5
+									flowState = True
+									isTweakable = False
+									hideFlow = False
+									isVisible = True
+									flowMode = Both
+								}
+							}
+						}
+					}
+				}
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+			KERBAL
+			{
+				name = Bob Kerman
+				gender = Male
+				type = Crew
+				trait = Scientist
+				brave = 0.300000012
+				dumb = 0.100000001
+				badS = False
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 2
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				hasVisorDown = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				INVENTORY
+				{
+					inventory = evaChute,evaJetpack
+					STOREDPARTS
+					{
+						STOREDPART
+						{
+							slotIndex = 0
+							partName = evaChute
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaChute
+								cid = 4294883412
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 0
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.00400000019
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaChute
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = False
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+							}
+						}
+						STOREDPART
+						{
+							slotIndex = 1
+							partName = evaJetpack
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaJetpack
+								cid = 4294883474
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 2
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.0199999996
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaJetpack
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = True
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+								RESOURCE
+								{
+									name = EVA Propellant
+									amount = 5
+									maxAmount = 5
+									flowState = True
+									isTweakable = False
+									hideFlow = False
+									isVisible = True
+									flowMode = Both
+								}
+							}
+						}
+					}
+				}
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+			KERBAL
+			{
+				name = Valentina Kerman
+				gender = Female
+				type = Crew
+				trait = Pilot
+				brave = 0.550000012
+				dumb = 0.400000006
+				badS = True
+				veteran = True
+				tour = False
+				state = Available
+				inactive = False
+				inactiveTimeEnd = 0
+				gExperienced = 0
+				outDueToG = False
+				ToD = 0
+				idx = 1
+				extraXP = 0
+				hasHelmetOn = False
+				hasNeckRingOn = False
+				hasVisorDown = False
+				lightR = 1
+				lightG = 0.5176
+				lightB = 0
+				completedFirstEVA = False
+				suit = Default
+				hero = True
+				INVENTORY
+				{
+					inventory = evaChute,evaJetpack
+					STOREDPARTS
+					{
+						STOREDPART
+						{
+							slotIndex = 0
+							partName = evaChute
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaChute
+								cid = 4294883412
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 0
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.00400000019
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaChute
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = False
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+							}
+						}
+						STOREDPART
+						{
+							slotIndex = 1
+							partName = evaJetpack
+							quantity = 1
+							stackCapacity = 1
+							variantName = 
+							PART
+							{
+								name = evaJetpack
+								cid = 4294883474
+								uid = 0
+								mid = 0
+								persistentId = 0
+								launchID = 0
+								parent = 0
+								position = 0,0,0
+								rotation = 0,0,0,0
+								mirror = 1,1,1
+								symMethod = Radial
+								istg = 0
+								resPri = 2
+								dstg = 0
+								sqor = -1
+								sepI = 0
+								sidx = -1
+								attm = 0
+								sameVesselCollision = False
+								srfN = None, -1
+								mass = 0.0199999996
+								shielded = False
+								temp = -1
+								tempExt = 0
+								tempExtUnexp = 0
+								staticPressureAtm = 0
+								expt = 0.5
+								state = 0
+								PreFailState = 0
+								attached = True
+								autostrutMode = Off
+								rigidAttachment = False
+								flag = 
+								rTrf = evaJetpack
+								modCost = 0
+								modMass = 0
+								moduleVariantName = 
+								moduleCargoStackableQuantity = 1
+								EVENTS
+								{
+								}
+								ACTIONS
+								{
+									ToggleSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									SetSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+									RemoveSameVesselInteraction
+									{
+										actionGroup = None
+										wasActiveBeforePartWasAdjusted = False
+									}
+								}
+								PARTDATA
+								{
+								}
+								MODULE
+								{
+									name = ModuleCargoPart
+									isEnabled = True
+									beingAttached = False
+									beingSettled = False
+									reinitResourcesOnStoreInVessel = True
+									stagingEnabled = True
+									EVENTS
+									{
+									}
+									ACTIONS
+									{
+									}
+									UPGRADESAPPLIED
+									{
+									}
+								}
+								RESOURCE
+								{
+									name = EVA Propellant
+									amount = 5
+									maxAmount = 5
+									flowState = True
+									isTweakable = False
+									hideFlow = False
+									isVisible = True
+									flowMode = Both
+								}
+							}
+						}
+					}
+				}
+				CAREER_LOG
+				{
+					flight = 0
+					0 = Training5,Kerbin
+				}
+				FLIGHT_LOG
+				{
+					flight = 0
+				}
+			}
+		}
+		PARAMETERS
+		{
+			preset = Normal
+			FLIGHT
+			{
+				CanQuickSave = True
+				CanQuickLoad = True
+				CanAutoSave = True
+				CanUseMap = True
+				CanSwitchVesselsNear = True
+				CanSwitchVesselsFar = True
+				CanTimeWarpHigh = True
+				CanTimeWarpLow = True
+				CanEVA = True
+				CanIVA = True
+				CanBoard = True
+				CanRestart = True
+				CanLeaveToEditor = True
+				CanLeaveToTrackingStation = True
+				CanLeaveToSpaceCenter = True
+				CanLeaveToMainMenu = True
+			}
+			EDITOR
+			{
+				CanSave = True
+				CanLoad = True
+				CanStartNew = True
+				CanLaunch = True
+				CanLeaveToSpaceCenter = True
+				CanLeaveToMainMenu = False
+				startUpMode = 0
+				craftFileToLoad = 
+			}
+			TRACKINGSTATION
+			{
+				CanFlyVessel = True
+				CanAbortVessel = True
+				CanLeaveToSpaceCenter = True
+				CanLeaveToMainMenu = False
+			}
+			SPACECENTER
+			{
+				CanGoInVAB = True
+				CanGoInSPH = True
+				CanGoInTrackingStation = True
+				CanLaunchAtPad = True
+				CanLaunchAtRunway = True
+				CanGoToAdmin = False
+				CanGoToAstronautC = True
+				CanGoToMissionControl = False
+				CanGoToRnD = False
+				CanSelectFlag = True
+				CanLeaveToMainMenu = True
+			}
+			DIFFICULTY
+			{
+				AutoHireCrews = False
+				MissingCrewsRespawn = True
+				RespawnTimer = 7200
+				BypassEntryPurchaseAfterResearch = True
+				AllowStockVessels = False
+				IndestructibleFacilities = False
+				ResourceAbundance = 1
+				ReentryHeatScale = 1
+				EnableCommNet = True
+				AllowOtherLaunchSites = False
+				persistKerbalInventories = False
+			}
+			CAREER
+			{
+				TechTreeUrl = GameData/Squad/Resources/TechTree.cfg
+				StartingFunds = 25000
+				StartingScience = 0
+				StartingReputation = 0
+				FundsGainMultiplier = 1
+				RepGainMultiplier = 1
+				ScienceGainMultiplier = 1
+				FundsLossMultiplier = 1
+				RepLossMultiplier = 1
+				RepLossDeclined = 1
+			}
+			CommNetParams
+			{
+				requireSignalForControl = False
+				plasmaBlackout = False
+				rangeModifier = 1
+				DSNModifier = 1
+				occlusionMultiplierVac = 0.9
+				occlusionMultiplierAtm = 0.75
+				enableGroundStations = True
+			}
+			AdvancedParams
+			{
+				EnableKerbalExperience = True
+				ImmediateLevelUp = False
+				AllowNegativeCurrency = False
+				PressurePartLimits = False
+				GPartLimits = False
+				GKerbalLimits = False
+				KerbalGToleranceMult = 1
+				ResourceTransferObeyCrossfeed = False
+				ActionGroupsAlways = False
+				BuildingImpactDamageMult = 0.05
+				PartUpgradesInSandbox = False
+				PartUpgradesInCareer = True
+				PartUpgradesInMission = False
+				EnableFullSASInSandbox = False
+				EnableFullSASInMissions = False
+			}
+			MissionParamsGeneral
+			{
+				enableFunding = False
+				startingFunds = 100000
+				spacer = 
+				enableKerbalLevels = False
+				kerbalLevelPilot = 4
+				kerbalLevelScientist = 4
+				kerbalLevelEngineer = 4
+				spacer2 = 
+				preventVesselRecovery = False
+			}
+			MissionParamsExtras
+			{
+				facilityOpenAC = False
+				astronautHiresAreFree = True
+				spacer = 
+				facilityOpenEditor = False
+				launchSitesOpen = True
+				spacer2 = 
+				cheatsEnabled = False
+			}
+			MissionParamsFacilities
+			{
+				facilityLevelAdmin = 3
+				facilityLevelAC = 3
+				facilityLevelLaunchpad = 3
+				facilityLevelMC = 3
+				facilityLevelRD = 3
+				facilityLevelRunway = 3
+				facilityLevelSPH = 3
+				facilityLevelTS = 3
+				facilityLevelVAB = 3
+			}
+		}
+		SAP_PARAMETERS
+		{
+			parametersDisplayedInSAP = startUT
+			parametersDisplayedInSAP = partFilter
+			parametersDisplayedInSAP = autoGenerateCrew
+			parametersDisplayedInSAP = gameParameters
+			parametersDisplayedInSAP = resourceSeed
+		}
+	}
+	SCOREMODULES
+	{
+	}
+	AWARDMODULES
+	{
+		AWARDMODULE
+		{
+			name = AwardModule_MissionTime
+			id = 193
+			awardID = MissionTime
+			enabled = False
+			score = 0
+			missionTime = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Fuel
+			id = 194
+			awardID = Fuel
+			enabled = False
+			score = 0
+			resourceName = LiquidFuel
+			resourceAmount = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_KerbalsSurvived
+			id = 195
+			awardID = KerbalsSurvived
+			enabled = False
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_KerbalsDied
+			id = 196
+			awardID = KerbalsDied
+			enabled = False
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_TraveledLessThan
+			id = 197
+			awardID = TraveledLessThan
+			enabled = False
+			score = 0
+			distance = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_TraveledMoreThan
+			id = 198
+			awardID = TraveledMoreThan
+			enabled = False
+			score = 0
+			distance = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_VesselsUsed
+			id = 199
+			awardID = VesselsUsed
+			enabled = False
+			score = 0
+			vesselsUsed = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_LandedOn
+			id = 200
+			awardID = LandedOn
+			enabled = False
+			score = 0
+			vesselID = 0
+			distance = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_PlanetsLanded
+			id = 201
+			awardID = PlanetsLanded
+			enabled = False
+			score = 0
+			planetsLanded = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Score
+			id = 202
+			awardID = BronzeAward
+			enabled = True
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Score
+			id = 203
+			awardID = SilverAward
+			enabled = True
+			score = 0
+		}
+		AWARDMODULE
+		{
+			name = AwardModule_Score
+			id = 204
+			awardID = GoldAward
+			enabled = True
+			score = 0
+		}
+	}
+	MAPPEDVESSELS
+	{
+		MAPPEDVESSEL
+		{
+			partId = 2487499933
+			mappedId = 1742412059
+			originalId = 2851382482
+			currentId = 2851382482
+			partVslName = Space Shuttle (Bubble Telescope)
+			craftFileName = Space Shuttle (Bubble Telescope).craft
+			situationVslName = Bubble Space Telescope
+		}
+	}
+	NODES
+	{
+		NODE
+		{
+			title = Startknoten
+			id = e4cd4498-cd1f-412d-8546-7d1d2b61b923
+			description = 
+			category = Start
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = -307.818207,-5.45455933
+			isStartNode = True
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = 
+			basicNodeIconURL = 
+			nodeColor = #B2BBC5
+			missionEndOptions = Success
+			TONODEIDS
+			{
+				nodeID = 37848e28-bb20-47e8-bbc9-4ee29c23aa35
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = MissionSituation
+					parameter = startUT
+				}
+			}
+			DOCKEDNODEIDS
+			{
+				nodeID = 72edc2f4-6d84-40d7-973a-463eb796567d
+			}
+		}
+		NODE
+		{
+			title = Raumfahrzeug erscheinen lassen
+			id = 72edc2f4-6d84-40d7-973a-463eb796567d
+			description = Lässt ein Raumfahrzeug irgendwo im Universum erscheinen.
+			category = Spawnable
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 0,0
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = CreateVessel
+			basicNodeIconURL = create-vessel
+			nodeColor = #C3F948
+			dockParentNodeID = e4cd4498-cd1f-412d-8546-7d1d2b61b923
+			missionEndOptions = Success
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionCreateVessel
+					title = Raumfahrzeug erscheinen lassen
+					parametersDisplayedInSAP = vesselSituation
+					parametersDisplayedInSAP = partFilter
+					restartOnSceneLoad = False
+					isRunning = False
+					VESSELSITUATION
+					{
+						ship = Bubble Space Telescope
+						vesselDescription = 
+						playerCreated = False
+						persistentId = 2851382482
+						craftFile = Space Shuttle (Bubble Telescope).craft
+						focusonSpawn = False
+						launched = False
+						readyToLaunch = False
+						autoGenerateCrew = False
+						LOCATION
+						{
+							sit = ORBITING
+							launchSite = LaunchPad
+							facility = VAB
+							brakesOn = True
+							GROUNDPOINT
+							{
+								bodyName = Kerbin
+								gizmoIcon = Rocket
+								lat = -0.0067197178965345532
+								lon = -74.514266332686319
+								alt = 0
+								rot = 0,0,0
+								splashed = True
+							}
+							ORBIT
+							{
+								SMA = 750000
+								ECC = 0
+								INC = 28.449999999999999
+								LPE = 0
+								LAN = 0
+								MNA = 0
+								EPH = 0
+								REF = 1
+								editorRotation = 230
+							}
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionCreateVessel
+					parameter = vesselSituation
+				}
+			}
+		}
+		NODE
+		{
+			title = Parking orbit reached
+			id = a026fad8-aaca-4a4d-a89d-62b1e1608979
+			description = Zeigt eine Nachricht in einem Dialogfeld an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 294.181793,-1.99998474
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 37848e28-bb20-47e8-bbc9-4ee29c23aa35
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 6806eb3d-9f5a-469c-a82d-4536d26ac1b5
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialognachricht
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Launch successful!
+					message = The Bubble Space Telescope onboard the launch vehicle has reached its circular parking orbit with a semi-major axis of 750 km and an inclination of 28.45°.
+					instructorName = Instructor_Gene
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = True
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialognachricht
+			id = e2535794-e904-49a4-a084-abc2e2da25be
+			description = Zeigt eine Nachricht in einem Dialogfeld an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 299.736694,-465.242432
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 70862f91-b896-46b9-b6d1-83032f4d90f9
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 31f85e7a-bcc5-4157-8adb-eaf71240bd18
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialognachricht
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = JEB to KSC: ENGINE FAILURE
+					message = We had an engine failure! The left Orbital Maneuvering System Engine did not fire up again.
+					instructorName = Instructor_Jeb_MaleVeteran
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = OMS-Restart
+			id = afc9be1c-87ae-4f87-b1b0-408b1fb70c9c
+			description = Zeigt eine Nachricht auf dem Bildschirm an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 861.363403,16.1209106
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 6806eb3d-9f5a-469c-a82d-4536d26ac1b5
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 7281bf34-b508-4cab-8cf2-175769c68154
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Nachricht anzeigen
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = Firing Orbital Maneuvering System to perform Hohman-Transfer to target orbit.
+					duration = 5
+					style = UPPER_CENTER
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Activate engines
+			id = 37848e28-bb20-47e8-bbc9-4ee29c23aa35
+			description = Aktiviert die nächste Stufe eines Raumfahrzeugs.
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 0.185653687,-1.49716187
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ActionVesselStage
+			basicNodeIconURL = vessel-stage-activated
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = e4cd4498-cd1f-412d-8546-7d1d2b61b923
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = a026fad8-aaca-4a4d-a89d-62b1e1608979
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselActive
+						title = #autoLOC_8004217
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+					}
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionVesselStage
+					title = Stufe aktivieren
+					restartOnSceneLoad = False
+					isRunning = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselActive
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Zeit seit Knoten
+			id = 6806eb3d-9f5a-469c-a82d-4536d26ac1b5
+			description = Prüft die Zeit seit einem bestimmten Knoten.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 580.509766,-8.51864624
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = TestTimeSinceNode
+			basicNodeIconURL = time-since-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = a026fad8-aaca-4a4d-a89d-62b1e1608979
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = afc9be1c-87ae-4f87-b1b0-408b1fb70c9c
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestTimeSinceNode
+						title = Zeit seit Knoten
+						parametersDisplayedInSAP = time
+						parametersDisplayedInSAP = nodeID
+						nodeID = a026fad8-aaca-4a4d-a89d-62b1e1608979
+						time = 15
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestTimeSinceNode
+					parameter = time
+				}
+			}
+		}
+		NODE
+		{
+			title = Left OMS engine fails
+			id = b62c9de7-2e27-4021-ab20-62d57287a013
+			description = Löst das Versagen eines Teils aus.
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 1550.57666,21.5129395
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = PartFailure
+			basicNodeIconURL = fail-part
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 7281bf34-b508-4cab-8cf2-175769c68154
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 84fdedf0-3b91-4eb4-a836-c035b37b399e
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionPartFailure
+					title = Teil versagen lassen
+					parametersDisplayedInSAP = vesselPartIDs
+					parametersDisplayedInSAP = Modules
+					restartOnSceneLoad = False
+					isRunning = False
+					partPersistentId = 416866095
+					vesselPersistentId = 2851382482
+					partName = Flüssigtreibstoff-Triebwerk LV-909 "Terrier"
+					MODULES
+					{
+						MODULE
+						{
+							name = FailureEnginesDeadEngine
+							id = 2080
+							canBeRepaired = True
+							adjusterID = 13ac0e70-6a1c-409b-9f95-37bc1ac30207
+						}
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionPartFailure
+					parameter = vesselPartIDs
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionPartFailure
+					parameter = Modules
+				}
+			}
+		}
+		NODE
+		{
+			title = Engine failure
+			id = 84fdedf0-3b91-4eb4-a836-c035b37b399e
+			description = Zeigt eine Nachricht auf dem Bildschirm an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = -291.683136,-468.668823
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = Message
+			basicNodeIconURL = display-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = b62c9de7-2e27-4021-ab20-62d57287a013
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 70862f91-b896-46b9-b6d1-83032f4d90f9
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionMessage
+					title = Nachricht anzeigen
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = duration
+					parametersDisplayedInSAP = style
+					restartOnSceneLoad = False
+					isRunning = False
+					message = WARNING! ENGINE FAILURE!!!
+					duration = 5
+					style = UPPER_CENTER
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = message
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionMessage
+					parameter = duration
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialognachricht
+			id = 31f85e7a-bcc5-4157-8adb-eaf71240bd18
+			description = Zeigt eine Nachricht in einem Dialogfeld an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 608.983643,-477.456665
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = e2535794-e904-49a4-a084-abc2e2da25be
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 0c51a224-9fcf-4fe2-8b48-f0278619154d
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialognachricht
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = KSC to Launch Vehicle: New Mission plan
+					message = Chillax, just release the Bubble Space Telescope out of the cargo bay and return to KSC with one engine. You should be fine. We will take care of the telescope.
+					instructorName = Instructor_Gene
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Open cargo bay
+			id = 0c51a224-9fcf-4fe2-8b48-f0278619154d
+			description = Aktionsgruppe in einem Raumfahrzeug auslösen
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 901.992004,-475.214233
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ActionVesselActionGroup
+			basicNodeIconURL = vessel-actiongroup-trigger
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 31f85e7a-bcc5-4157-8adb-eaf71240bd18
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 301dd6d2-4c12-4027-b42d-8d251595e58a
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselActive
+						title = #autoLOC_8004217
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+					}
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionVesselActionGroup
+					title = Aktionsgruppe auslösen
+					parametersDisplayedInSAP = actionGroup
+					restartOnSceneLoad = False
+					isRunning = False
+					actionGroup = Custom02
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselActive
+					parameter = vesselID
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionVesselActionGroup
+					parameter = actionGroup
+				}
+			}
+		}
+		NODE
+		{
+			title = Release Bubble Space Telescope
+			id = 87b33068-19fd-422d-9a5f-0ae7c4030a3d
+			description = Aktiviert die nächste Stufe eines Raumfahrzeugs.
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 1518.65857,-478.456665
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ActionVesselStage
+			basicNodeIconURL = vessel-stage-activated
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 301dd6d2-4c12-4027-b42d-8d251595e58a
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = a4eaf170-736c-4572-bf2f-b9a57af5301b
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselActive
+						title = #autoLOC_8004217
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+					}
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionVesselStage
+					title = Stufe aktivieren
+					restartOnSceneLoad = False
+					isRunning = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselActive
+					parameter = vesselID
+				}
+			}
+		}
+		NODE
+		{
+			title = Zeit seit Knoten
+			id = 301dd6d2-4c12-4027-b42d-8d251595e58a
+			description = Prüft die Zeit seit einem bestimmten Knoten.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 1210.26001,-484.874969
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = TestTimeSinceNode
+			basicNodeIconURL = time-since-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 0c51a224-9fcf-4fe2-8b48-f0278619154d
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 87b33068-19fd-422d-9a5f-0ae7c4030a3d
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestTimeSinceNode
+						title = Zeit seit Knoten
+						parametersDisplayedInSAP = time
+						parametersDisplayedInSAP = nodeID
+						nodeID = 0c51a224-9fcf-4fe2-8b48-f0278619154d
+						time = 20
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestTimeSinceNode
+					parameter = time
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialognachricht
+			id = a4eaf170-736c-4572-bf2f-b9a57af5301b
+			description = Zeigt eine Nachricht in einem Dialogfeld an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = -262.402039,-810.820313
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 87b33068-19fd-422d-9a5f-0ae7c4030a3d
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 202a09f5-45ca-40e0-bff8-5445a59046bf
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialognachricht
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Help pls.
+					message = Well, we thought we prepared for everything but unfortunatly we forgot to programm the auto pilot. Please do that for us. The telescope is supposed to perform a Hohmann-Transfer to its circular target orbit with a height of 550 km MSL.
+					instructorName = Instructor_Gene
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialognachricht
+			id = 202a09f5-45ca-40e0-bff8-5445a59046bf
+			description = Zeigt eine Nachricht in einem Dialogfeld an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 48.1231995,-810.764648
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = a4eaf170-736c-4572-bf2f-b9a57af5301b
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 321da5aa-2774-47a8-9477-397b07f42224
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialognachricht
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Coding
+					message = Please write your script in an editor or IDE of your choice. We also provide the IDE Joolyter. It can be opened from the toolbar on the right by clicking on the last icon.
+					instructorName = Instructor_Gene
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = True
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Umlaufbahn-Parameter
+			id = 9101ede5-058e-4af1-b324-2ebbfda04dd3
+			description = Prüft die gewählten Parameter der Umlaufbahn eines Raumfahrzeugs.
+			category = Location
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 628.781616,-810.392944
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = True
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = OrbitParams
+			basicNodeIconURL = orbitParameters
+			nodeColor = #73D2D6
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 321da5aa-2774-47a8-9477-397b07f42224
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 8aa438bc-04e5-4de5-a6c9-0a5ff39b8a8f
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestOrbitParams
+						title = Umlaufbahn-Parameter
+						parametersDisplayedInSAP = checkApoapsis
+						parametersDisplayedInSAP = apMinValue
+						parametersDisplayedInSAP = apMaxValue
+						parametersDisplayedInSAP = checkPeriapsis
+						parametersDisplayedInSAP = peMinValue
+						parametersDisplayedInSAP = peMaxValue
+						parametersDisplayedInSAP = checkInclination
+						parametersDisplayedInSAP = inclination
+						parametersDisplayedInSAP = checkLAN
+						parametersDisplayedInSAP = LAN
+						parametersDisplayedInSAP = body
+						parametersDisplayedInSAP = stabilizationTime
+						parametersDisplayedInSAP = underThrust
+						parametersDisplayedInSAP = orbitAccuracy
+						vesselID = 0
+						checkApoapsis = True
+						checkPeriapsis = True
+						checkInclination = True
+						checkLAN = False
+						apMaxValue = 551000
+						apMinValue = 549000
+						peMaxValue = 551000
+						peMinValue = 549000
+						inclination = 28.449999999999999
+						inclinationAccuracy = 95
+						LAN = 0
+						LANAccuracy = 90
+						stabilizationTime = 7
+						underThrust = False
+						bodyName = Kerbin
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = body
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = checkApoapsis
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = checkPeriapsis
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = checkInclination
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = checkLAN
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = stabilizationTime
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = underThrust
+				}
+				MODULE_PARAMETER
+				{
+					module = TestOrbitParams
+					parameter = orbitAccuracy
+				}
+			}
+		}
+		NODE
+		{
+			title = Deploy Systems
+			id = 8aa438bc-04e5-4de5-a6c9-0a5ff39b8a8f
+			description = Aktionsgruppe in einem Raumfahrzeug auslösen
+			category = Vessel
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 903.521301,-810.260742
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = ActionVesselActionGroup
+			basicNodeIconURL = vessel-actiongroup-trigger
+			nodeColor = #3F8CED
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 9101ede5-058e-4af1-b324-2ebbfda04dd3
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 36f45a01-638c-4a2c-9b74-39d11984bf04
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestVesselActive
+						title = #autoLOC_8004217
+						parametersDisplayedInSAP = vesselID
+						vesselID = 0
+					}
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionVesselActionGroup
+					title = Aktionsgruppe auslösen
+					parametersDisplayedInSAP = actionGroup
+					restartOnSceneLoad = False
+					isRunning = False
+					actionGroup = Custom01
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestVesselActive
+					parameter = vesselID
+				}
+				MODULE_PARAMETER
+				{
+					module = ActionVesselActionGroup
+					parameter = actionGroup
+				}
+			}
+		}
+		NODE
+		{
+			title = Zeit seit Knoten
+			id = 36f45a01-638c-4a2c-9b74-39d11984bf04
+			description = Prüft die Zeit seit einem bestimmten Knoten.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 1190.03149,-817.326355
+			isStartNode = False
+			isEndNode = True
+			message = 
+			dockedIndex = 0
+			isObjective = True
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = TestTimeSinceNode
+			basicNodeIconURL = time-since-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 8aa438bc-04e5-4de5-a6c9-0a5ff39b8a8f
+					connectorColor = #FFFFFF
+				}
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestTimeSinceNode
+						title = Zeit seit Knoten
+						parametersDisplayedInSAP = time
+						parametersDisplayedInSAP = nodeID
+						nodeID = e4cd4498-cd1f-412d-8546-7d1d2b61b923
+						time = 10
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestTimeSinceNode
+					parameter = time
+				}
+			}
+		}
+		NODE
+		{
+			title = Dialognachricht
+			id = 321da5aa-2774-47a8-9477-397b07f42224
+			description = Zeigt eine Nachricht in einem Dialogfeld an.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 337.964661,-811.106201
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = False
+			basicNodeSource = DialogMessage
+			basicNodeIconURL = dialog-message
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 202a09f5-45ca-40e0-bff8-5445a59046bf
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = 9101ede5-058e-4af1-b324-2ebbfda04dd3
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+				}
+			}
+			ACTIONS
+			{
+				ACTIONMODULE
+				{
+					name = ActionDialogMessage
+					title = Dialognachricht
+					parametersDisplayedInSAP = messageHeading
+					parametersDisplayedInSAP = message
+					parametersDisplayedInSAP = missionInstructor
+					restartOnSceneLoad = False
+					isRunning = False
+					messageHeading = Start Autopilot
+					message = if you're done coding start a server to upload your code to the telescope. Therefore, click on the network icon in the right followed by selecting "Start". You can close the window afterwards.\nNow open your code in the built-in IDE and run it by clicking the "Play"-icon on the top. As long as the toolbar icon is green the server is running.
+					instructorName = Instructor_Gene
+					vintageSuit = False
+					textAreaSize = 135
+					pauseMission = False
+					screenArea = Center
+					autoClose = False
+					autoCloseTimeOut = 20
+					isBriefingMessage = False
+					autoGrowDialogHeight = False
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = ActionDialogMessage
+					parameter = missionInstructor
+				}
+			}
+		}
+		NODE
+		{
+			title = Zeit seit Knoten
+			id = 7281bf34-b508-4cab-8cf2-175769c68154
+			description = Prüft die Zeit seit einem bestimmten Knoten.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 1220.65112,-16.7408447
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = TestTimeSinceNode
+			basicNodeIconURL = time-since-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = afc9be1c-87ae-4f87-b1b0-408b1fb70c9c
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = b62c9de7-2e27-4021-ab20-62d57287a013
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestTimeSinceNode
+						title = Zeit seit Knoten
+						parametersDisplayedInSAP = time
+						parametersDisplayedInSAP = nodeID
+						nodeID = afc9be1c-87ae-4f87-b1b0-408b1fb70c9c
+						time = 4
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestTimeSinceNode
+					parameter = time
+				}
+			}
+		}
+		NODE
+		{
+			title = Zeit seit Knoten
+			id = 70862f91-b896-46b9-b6d1-83032f4d90f9
+			description = Prüft die Zeit seit einem bestimmten Knoten.
+			category = Utility
+			showScreenMessage = False
+			msgTime = 5
+			editorPosition = 11.5441589,-477.652832
+			isStartNode = False
+			isEndNode = False
+			message = 
+			dockedIndex = 0
+			isObjective = False
+			isCatchAll = False
+			isEvent = False
+			activateOnceOnly = True
+			activatedUT = 0
+			isLogicNode = True
+			basicNodeSource = TestTimeSinceNode
+			basicNodeIconURL = time-since-node
+			nodeColor = #F68834
+			missionEndOptions = Success
+			FROMNODES
+			{
+				FROMNODE
+				{
+					nodeID = 84fdedf0-3b91-4eb4-a836-c035b37b399e
+					connectorColor = #FFFFFF
+				}
+			}
+			TONODEIDS
+			{
+				nodeID = e2535794-e904-49a4-a084-abc2e2da25be
+			}
+			TESTGROUPS
+			{
+				TESTGROUP
+				{
+					title = 
+					TESTMODULE
+					{
+						name = TestTimeSinceNode
+						title = Zeit seit Knoten
+						parametersDisplayedInSAP = time
+						parametersDisplayedInSAP = nodeID
+						nodeID = 84fdedf0-3b91-4eb4-a836-c035b37b399e
+						time = 2
+						comparisonOperator = GreaterThan
+					}
+				}
+			}
+			NODEBODY_PARAMETERS
+			{
+				MODULE_PARAMETER
+				{
+					module = TestTimeSinceNode
+					parameter = time
+				}
+			}
+		}
+	}
+	TAGS
+	{
+	}
+	FLOW
+	{
+		BLOCKS
+		{
+			NODE
+			{
+				id = 37848e28-bb20-47e8-bbc9-4ee29c23aa35
+			}
+			NODE
+			{
+				id = a026fad8-aaca-4a4d-a89d-62b1e1608979
+			}
+			NODE
+			{
+				id = 6806eb3d-9f5a-469c-a82d-4536d26ac1b5
+			}
+			NODE
+			{
+				id = afc9be1c-87ae-4f87-b1b0-408b1fb70c9c
+			}
+			NODE
+			{
+				id = 7281bf34-b508-4cab-8cf2-175769c68154
+			}
+			NODE
+			{
+				id = b62c9de7-2e27-4021-ab20-62d57287a013
+			}
+			NODE
+			{
+				id = 84fdedf0-3b91-4eb4-a836-c035b37b399e
+			}
+			NODE
+			{
+				id = 70862f91-b896-46b9-b6d1-83032f4d90f9
+			}
+			NODE
+			{
+				id = e2535794-e904-49a4-a084-abc2e2da25be
+			}
+			NODE
+			{
+				id = 31f85e7a-bcc5-4157-8adb-eaf71240bd18
+			}
+			NODE
+			{
+				id = 0c51a224-9fcf-4fe2-8b48-f0278619154d
+			}
+			NODE
+			{
+				id = 301dd6d2-4c12-4027-b42d-8d251595e58a
+			}
+			NODE
+			{
+				id = 87b33068-19fd-422d-9a5f-0ae7c4030a3d
+			}
+			NODE
+			{
+				id = a4eaf170-736c-4572-bf2f-b9a57af5301b
+			}
+			NODE
+			{
+				id = 202a09f5-45ca-40e0-bff8-5445a59046bf
+			}
+			NODE
+			{
+				id = 321da5aa-2774-47a8-9477-397b07f42224
+			}
+			NODE
+			{
+				id = 9101ede5-058e-4af1-b324-2ebbfda04dd3
+			}
+			NODE
+			{
+				id = 8aa438bc-04e5-4de5-a6c9-0a5ff39b8a8f
+			}
+			NODE
+			{
+				id = 36f45a01-638c-4a2c-9b74-39d11984bf04
+			}
+		}
+	}
+}
+EDITOR_STATUS
+{
+	canvasPosition = 759.750427,-756.667114,0
+	zoomLevel = 0.600000024
+}

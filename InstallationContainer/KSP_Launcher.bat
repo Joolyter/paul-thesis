@@ -1,0 +1,2 @@
+cd Kerbal_Space_Program
+start KSP_x64.exe
