@@ -16,11 +16,11 @@ def generate_sphinx_docs(docs_path: Path) -> None:
     """ Generates html documentation from the docstrings in the Joolyter package."""
     if importlib.util.find_spec(THEME) is None:
         raise ImportError("\'sphinx_rtd_theme\' package must be installed in order to generate sphinx-documentation.")
-    # if docs_path.exists():
-    #     _update_sphinx_docs(docs_path)
-    # else:
-    #     _create_new_sphinx_docs(docs_path)
-    _create_new_sphinx_docs(docs_path)
+    if docs_path.exists():
+        _update_sphinx_docs(docs_path)
+    else:
+        _create_new_sphinx_docs(docs_path)
+    # _create_new_sphinx_docs(docs_path)
 
 
 def _create_new_sphinx_docs(docs_path: Path) -> None:
