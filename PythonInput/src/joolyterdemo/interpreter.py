@@ -127,17 +127,22 @@ class Mission:
                 # get time to ascending (AN) or descending (DN) nodes
                 t_to_an = setup_two.t_to_node()
                 t_to_dn = setup_two.t_to_node('dn')
+                print("t_to_an =", t_to_an)
+                print("t_to_dn =", t_to_dn)
+
+                print("setup_two.t_to_ap =", setup_two.t_to_ap)
+                print("setup_two.t_to_pe =", setup_two.t_to_pe)
                 # check if apsides coincide with line of nodes by comparing time delta
                 # comparison values (45 s at ap and 5 s at pe) are educated guesses and will need 
                 # extensive testing on different machines or someone throws some math at it
                 if setup_two.ecc > 0.00133 and (
                     (
                         abs(t_to_an - setup_two.t_to_ap)
-                        or abs(t_to_dn - setup_two.t_to_ap) > 45
+                        and abs(t_to_dn - setup_two.t_to_ap) > 45
                     )
                     and (
                         abs(t_to_an - setup_two.t_to_pe)
-                        or abs(t_to_dn - setup_two.t_to_pe) > 5
+                        and abs(t_to_dn - setup_two.t_to_pe) > 5
                     )
                 ):
                     raise ValueError(

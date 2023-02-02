@@ -2,7 +2,7 @@
 """
 import math
 import joolyterdemo
-
+from interpreter import Mission
 
 def one():
     """Sample solution for Mission One: Hohmann Transfer
@@ -42,7 +42,7 @@ def one():
     print("dv_tot =", round(dv_tot, 3), "km/s")
 
     # feed results to vessel/auto pilot
-    joolyterdemo.Mission.one(dv12, dv23, dv_tot, "km/s")
+    joolyterdemo.Mission.one(dv12, dv23, "km/s")
 
 
 def two():
@@ -142,6 +142,11 @@ def two():
 
     # feed results to vessel/auto pilot
     if option == 1 and 'maneuver3' in locals():
-        joolyterdemo.Mission.two(maneuver1, maneuver2, maneuver3)
+        Mission.two(maneuver1, maneuver2, maneuver3)
     else:
-        joolyterdemo.Mission.two(maneuver1, maneuver2)
+        Mission.two(maneuver1, maneuver2)
+
+
+if __name__ == "__main__":
+    one()
+    # two()
