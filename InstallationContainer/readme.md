@@ -1,6 +1,6 @@
 # Instructions
 
-1. Download and unpack InstallationContainer.zip
+1. Download and **extract all contents** of InstallationContainer.zip
 2. Open InstallationContainer/ReadMe/JoolyterHandbook.pdf
 3. Follow instructions of Handbook##
 
