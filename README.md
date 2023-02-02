@@ -1,6 +1,7 @@
-# Joolyter Help Sheet [as per Jan 29, 2023]
+# Joolyter Help Sheet [as per Feb 3, 2023]
 This is a incomplete collection of helpful links, tips, and informations that have proven themselves helpful in the course of the usage of Joolyter. This sheet is inteded to be expanded as new information is found.
-All documentations created by myself can be accessed on https://joolyter.github.io/paul-thesis/.
+All documentations created by myself can be accessed on [GitHub Pages](https://joolyter.github.io/paul-thesis/).
+Feel free to fork the repository on [GitHub](https://github.com/Joolyter/paul-thesis) or contact me to get branch and write rights.
 
 ## 1. KSP Mission Building
 Kerbal Space Program's Mission Builder is part of the DLC *Making History*. If it cannot be found check if the extension is installed.
@@ -13,8 +14,8 @@ The demo missions that are included can also be used as templates. Therefore, op
 
 The game has guided tutorials as playable missions. They can be found under *Start Game  ->  Play Missions  ->  Stock Missions  ->  Tutorials*.
 
-## 2. Parser Development
-Please see the documentation at https://joolyter.github.io/paul-thesis/CoreApplication/src/docs/_build/html/index.html.
+## 2. PythonInput Development
+Please see the documentation  at [GitHub Pages](https://joolyter.github.io/paul-thesis/PythonInput/docs/_build/html/index.html).
 
 To get all Python libraries needed for updating package and documentation execute: \
 ```pip install wheel twine sphinx sphinx-rtd-theme```
@@ -26,16 +27,16 @@ The [documentation](https://krpc.github.io/krpc/python.html) has also proven its
 Further and personal assistance can be found on [kRPC: Remote Procedure Call Server  - Kerbal Space Program Forums](https://forum.kerbalspaceprogram.com/index.php?/topic/130742-15x-to-122-krpc-control-the-game-using-c-c-java-lua-python-ruby-haskell-c-arduino-v048-28th-october-2018/) but kRPC's [Discord server](https://discord.gg/c8c36UM) is much more active.
 
 ## 3. Joolyter IDE
-Please see the documentation at https://joolyter.github.io/paul-thesis/IDE/docs/html/index.html
+Please see the documentation at [GitHub Pages](https://joolyter.github.io/paul-thesis/IDE/docs/html/index.html).
+
 The Joolyter IDE and Joolyter Demo are completely independent. The IDE has been developed to make debugging and execution of solution scripts more convenient on small screen devices. It is written in C# and built in Unity 2019.18.f1.
 The developement was a lot more complex and time consuming as anticipated. Thus, if changes are to be made and no knowledge in Unity and Kerbal Space Program exists, I highly recommend to complete DMagic's tutorial on [Unity UI Creation Tutorial - Kerbal Space Program Forums](https://forum.kerbalspaceprogram.com/index.php?/topic/151354-unity-ui-creation-tutorial/) **after** getting comfortable using C# and loading plugins through [Linx' basic video tutorial](https://www.youtube.com/watch?v=i0I7MhOM7mg).
 As DMagic uses different mods as basis for his tutorial links to his [GitHub profile](https://github.com/DMagic1) and [threads on the Kerbal Space Program Forum](https://forum.kerbalspaceprogram.com/index.php?/profile/57416-dmagic/content/&type=forums_topic&change_section=1) are added.
 
-**Simple File Browser** is developed by Süleyman Yasir Kula. [Its GitHub repository](https://github.com/yasirkula/UnitySimpleFileBrowser) covers an extensive README file. Furthermore, he offers support on the [Unity Forum](https://forum.unity.com/threads/simple-file-browser-open-source.441908/) and [Discord](https://discord.gg/UJJt549AaV).
+**Simple File Browser** is developed by Süleyman Yasir Kula and published under MIT license. [Its GitHub repository](https://github.com/yasirkula/UnitySimpleFileBrowser) covers an extensive README file. Furthermore, he offers support on the [Unity Forum](https://forum.unity.com/threads/simple-file-browser-open-source.441908/) and [Discord](https://discord.gg/UJJt549AaV).
 
 Generally the Unity [manual](https://docs.unity3d.com/2019.4/Documentation/Manual/index.html) and [documentation](https://docs.unity3d.com/2019.4/Documentation/ScriptReference/index.html) as well as the [forum](https://forum.unity.com/) offer great support. Tutorials on YouTube have often proven to be a good starting point as well.
 
 To update the docs use [Doxywizard](https://doxygen.nl/manual/doxywizard_usage.html).
 
 ## 4. Contact
-As I became more and more attatched to the project through the countless hours of fiddling around, I will always do my best to offer support where I can.
