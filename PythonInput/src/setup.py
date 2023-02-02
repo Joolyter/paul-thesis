@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 setup(
     name="joolyterdemo",
     packages=find_packages(include=["joolyterdemo"]),
-    version="0.3.4",
+    version="0.3.5",
     description="Python package that goes with Joolyter gamification approach.",
     long_description="Joolyter was developed in the course of Bachelor thesis "
                 "'A Gamification Approach to the Teaching of Space Flight Mechanics'. "
